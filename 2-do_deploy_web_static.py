@@ -7,7 +7,7 @@ from fabric.api import *
 from fabric.operations import run, put, sudo
 import os
 
-env.hosts = ["34.229.137.208", "100.25.181.105"]
+env.hosts = ["52.91.149.230", "54.160.78.47"]
 env.user = "ubuntu"
 env.key_filename = "~/.ssh/id_rsa"
 
